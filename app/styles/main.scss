@@ -1,0 +1,105 @@
+$icon-font-path: "../bower_components/bootstrap-sass-official/assets/fonts/bootstrap/";
+
+body {
+  padding: 0;
+}
+
+.info {
+	text-align: center;
+	margin: 50px 0px 50px 0px;
+}
+
+.main {
+	text-align: center;
+	padding: 0px 0px 0px 0px;
+	margin: 20px 20px 20px 20px;
+}
+
+.list {
+	border-top: 1px solid #e5e5e5;
+	border-right: 1px solid #e5e5e5;
+	border-bottom: 1px solid #e5e5e5;
+	border-left: 1px solid #e5e5e5;
+	padding: 20px 20px 20px 0px;
+	margin: 0px 20px 0px 20px;
+}
+
+h1 {
+	font-size: 36px;
+	display: inline;
+}
+
+h3 {
+	font-size: 22px;
+	display: inline;
+	margin: 0px -10px 0px 0px;
+}
+
+ol {
+	padding: 0px 0px 10px 30px;
+}
+
+input {
+	font-size: 18px;
+	padding: 0px 2px 2px 2px;
+	margin: 0px -50px 0px 10px;
+}
+
+label {
+	font-size: 22px;
+	margin: 0px 0px 0px 0px;
+	text-decoration: underline;
+	text-decoration-color: lightgrey;
+}
+
+.main .tooltip-label {
+	margin: 0px 20px 0px 0px;
+	position: relative;
+	top: -23px;
+	left: -180px;
+	text-decoration: none;
+	color: lightgrey;
+	font-size: 20px;
+}
+
+.list .tooltip-label-title {
+	position: relative;
+	top: -20px;
+	left: 35px;
+	text-decoration: none;
+	color: lightgrey;
+	font-size: 16px;
+}
+
+.list .tooltip-label-content {
+	position: relative;
+	top: -20px;
+	left: 55px;
+	text-decoration: none;
+	color: lightgrey;
+	font-size: 16px;
+}
+
+label.marked {
+	color: grey;
+	text-decoration: line-through;
+}
+
+.float-right {
+	float: right;
+}
+
+.float-left {
+	float: left;
+}
+
+button {
+	font-size: 16px;
+	padding: 3px 5px 3px 5px;
+	margin: 0px 0px 0px 10px;
+}
+
+button:disabled{
+	background-color: #dcdcdc;
+	border-color: #cccccc;
+}

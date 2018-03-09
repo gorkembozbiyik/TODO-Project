@@ -1,0 +1,121 @@
+/* line 3, ../../app/styles/main.scss */
+body {
+  padding: 0;
+}
+
+/* line 7, ../../app/styles/main.scss */
+.info {
+  text-align: center;
+  margin: 50px 0px 50px 0px;
+}
+
+/* line 12, ../../app/styles/main.scss */
+.main {
+  text-align: center;
+  padding: 0px 0px 0px 0px;
+  margin: 20px 20px 20px 20px;
+}
+
+/* line 18, ../../app/styles/main.scss */
+.list {
+  border-top: 1px solid #e5e5e5;
+  border-right: 1px solid #e5e5e5;
+  border-bottom: 1px solid #e5e5e5;
+  border-left: 1px solid #e5e5e5;
+  padding: 20px 20px 20px 0px;
+  margin: 0px 20px 0px 20px;
+}
+
+/* line 27, ../../app/styles/main.scss */
+h1 {
+  font-size: 36px;
+  display: inline;
+}
+
+/* line 32, ../../app/styles/main.scss */
+h3 {
+  font-size: 22px;
+  display: inline;
+  margin: 0px -10px 0px 0px;
+}
+
+/* line 38, ../../app/styles/main.scss */
+ol {
+  padding: 0px 0px 10px 30px;
+}
+
+/* line 42, ../../app/styles/main.scss */
+input {
+  font-size: 18px;
+  padding: 0px 2px 2px 2px;
+  margin: 0px -50px 0px 10px;
+}
+
+/* line 48, ../../app/styles/main.scss */
+label {
+  font-size: 22px;
+  margin: 0px 0px 0px 0px;
+  text-decoration: underline;
+  -webkit-text-decoration-color: lightgrey;
+          text-decoration-color: lightgrey;
+}
+
+/* line 55, ../../app/styles/main.scss */
+.main .tooltip-label {
+  margin: 0px 20px 0px 0px;
+  position: relative;
+  top: -23px;
+  left: -180px;
+  text-decoration: none;
+  color: lightgrey;
+  font-size: 20px;
+}
+
+/* line 65, ../../app/styles/main.scss */
+.list .tooltip-label-title {
+  position: relative;
+  top: -20px;
+  left: 35px;
+  text-decoration: none;
+  color: lightgrey;
+  font-size: 16px;
+}
+
+/* line 74, ../../app/styles/main.scss */
+.list .tooltip-label-content {
+  position: relative;
+  top: -20px;
+  left: 55px;
+  text-decoration: none;
+  color: lightgrey;
+  font-size: 16px;
+}
+
+/* line 83, ../../app/styles/main.scss */
+label.marked {
+  color: grey;
+  text-decoration: line-through;
+}
+
+/* line 88, ../../app/styles/main.scss */
+.float-right {
+  float: right;
+}
+
+/* line 92, ../../app/styles/main.scss */
+.float-left {
+  float: left;
+}
+
+/* line 96, ../../app/styles/main.scss */
+button {
+  font-size: 16px;
+  padding: 3px 5px 3px 5px;
+  margin: 0px 0px 0px 10px;
+}
+
+/* line 102, ../../app/styles/main.scss */
+button:disabled {
+  background-color: #dcdcdc;
+  border-color: #cccccc;
+}
